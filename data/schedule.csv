@@ -1,0 +1,11 @@
+Schedule_ID,Class_ID,Lecturer_ID,Room_ID,Day,Time_Slot,Schedule_Status
+S001,CL001,L001,R001,Monday,14:00-16:00,Proposed
+S002,CL002,L002,R002,Tuesday,18:00-16:00,Proposed
+S003,CL003,L003,R003,Wednesday,14:00-16:00,Proposed
+S004,CL004,L004,R004,Thursday ,16:00-18:00,Proposed
+S005,CL005,L005,R005,Monday,18:00-20:00,Proposed
+S006,CL006,L006,R006,Tuesday,14:00-16:00,Proposed
+S007,CL007,L007,R007,Wednesday,18:00-20:00,Proposed
+S008,CL008,L008,R008,Thursday ,14:00-16:00,Proposed
+S009,CL009,L009,R009,Friday,10:00-12:00,Proposed
+S010,CL010,L010,R010,Friday,18:00-20:00,Proposed

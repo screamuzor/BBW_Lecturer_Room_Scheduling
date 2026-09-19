@@ -1,0 +1,23 @@
+Room_ID,Room_Name,Room_Type,Capacity,Building,Floor,Equipment,Status
+R001,Room Alpha,"Standard 
+Classroom",30,Main Building,1,"Projector, 
+Whiteboard",Available 
+R002,Room Beta,"Standard 
+Classroom",40,Main Building,1,"Projector, 
+Whiteboard",Available 
+R003,Room Gamma,"Standard 
+Classroom",60,Main Building,2,"Projector, 
+Whiteboard",Available 
+R004,Room Delta,Computer Lab,25,Main Building,2,"Computers, Projector",Available 
+R005,Room Epsilon,Computer Lab,35,Main Building,2,"Computers, Projector",Available 
+R006,Room Zeta,Seminar room,20,Main Building,3,"Projector, 
+Whiteboard",Available 
+R007,Room Eta ,Seminar room,25,Main Building,3,"Projector, 
+Whiteboard",Available 
+R008,Room Theta ,"Standard
+ Classroom",50,Main Building,1,"Projector, 
+Whiteboard",Available 
+R009,Room Iota,Computer Lab,40,Main Building,2,"Computers, Projector",Available 
+R010,Room Kappa,"Standard 
+Classroom",25,Main Building,3,"Projector, 
+Whiteboard",Available 

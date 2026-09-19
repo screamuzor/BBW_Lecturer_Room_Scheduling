@@ -1,0 +1,11 @@
+Availability_ID,Lecturer_ID,Day,Time_Slot,Availability_Status,Preference
+A001,L001,Monday,08:00-10:00,Available,Preferred 
+A002,L001,Monday,10:00-12:00,Available,Preferred 
+A003,L001,Monday,18:00-20:00,Unavailable ,Not Preferred 
+A004,L002,Tuesday ,08:00-10:00,Available,Preferred 
+A005,L002,Tuesday ,10:00-12:00,Available ,Preferred 
+A006,L002,Tuesday ,18:00-20:00,Unavailable ,Not Preferred 
+A007,L003,Wednesday,14:00-16:00,Available,Preferred 
+A008,L003,Wednesday,16:00-18:00,Available,Preferred 
+A009,L016,Tuesday ,18:00-20:00,Available,Preferred 
+A010,L016,Thursday,18:00-20:00,Available,Preferred 

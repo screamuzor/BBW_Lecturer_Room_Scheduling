@@ -1,0 +1,11 @@
+Class_ID,Course_ID,Class_Group,Required_Hours,Expected_Students,Preferred_Day,Preferred_Time_Slot,Required_Room_Type,Required_Equipment,Scheduling_Priority
+CL001,C001,BA-01,4,28,Monday ,14:00-16:00,Standard Classroom,Projector,High
+CL002,C002,DS-01,6,24,Tuesday,18:00-16:00,Computer Lab,Computers,High
+CL003,C003,FN-01,4,32,Wednesday,16:00-18:00,Standard Classroom,Projector,High
+CL004,C004,PM-01,5,30,Thursday ,16:00-18:00,Standard Classroom,Projector,Medium
+CL005,C005,DS-02,6,26,Monday ,18:00-20:00,Computer Lab,Computers,High
+CL006,C006,BA-02,4,22,Tuesday,14:00-16:00,Standard Classroom,Projector,Medium
+CL007,C007,DS-02,6,30,Wednesday,18:00-20:00,Computer Lab,Computers,High
+CL008,C008,FN-02,4,38,Thursday ,14:00-16:00,Standard Classroom,Projector,Medium
+CL009,C009,PM-02,5,20,Friday,10:00-12:00,Standard Classroom,Projector,Low
+CL010,C010,DS-03,6,24,Friday,18:00-20:00,Computer Lab,Computers,High

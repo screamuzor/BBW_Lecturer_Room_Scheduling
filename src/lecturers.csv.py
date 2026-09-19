@@ -1,0 +1,64 @@
+import pandas as pd
+
+columns = [
+    "Lecturer_ID", "Lecturer_Name", "Employment_Type", "Department",
+    "Specialisation", "Hourly_Rate_EUR", "Max_Weekly_Hours",
+    "Preferred_Time", "Status"
+]
+
+rows = [
+["L001","Anna Weber","Full time","Business Administration","Business Strategy",65,18,"Afternoon","Active"],
+["L002","Daniel Schmidt","Full time","Data Science","Machine Learning",70,18,"Morning","Active"],
+["L003","Michael Bauer","Full time","Finance","Financial Management",68,18,"Afternoon","Active"],
+["L004","Sophie Klein","Full time","Project Management","Project Management",66,18,"Morning","Active"],
+["L005","Thomas Fischer","Full time","Data Science","Data Analytics",72,18,"Evening","Active"],
+["L006","Laura Hoffmann","Full time","Business Administration","Operations Management",64,18,"Morning","Active"],
+["L007","Markus Vogel","Full time","Finance","Accounting",67,18,"Afternoon","Active"],
+["L008","Julia Schneider","Full time","Data Science","Database Systems",71,18,"Evening","Active"],
+["L009","Stefan Wagner","Full time","Project Management","Risk Management",69,18,"Afternoon","Active"],
+["L010","Kathrin Becker","Full time","Business Administration","Marketing Management",63,18,"Morning","Active"],
+["L011","Andreas Keller","Full time","Finance","Corporate Finance",70,18,"Afternoon","Active"],
+["L012","Nina Richter","Full time","Data Science","Business Intelligence",73,18,"Evening","Active"],
+["L013","Felix Braun","Full time","Project Management","Programme Management",68,18,"Morning","Active"],
+["L014","Maria Hartmann","Full time","Business Administration","Strategic Management",65,18,"Afternoon","Active"],
+["L015","Lukas Wolf","Full time","Finance","Investment Analysis",71,18,"Evening","Active"],
+["L016","Sarah Neumann","Part time","Data Science","Data Engineering",60,12,"Evening","Active"],
+["L017","Jan Zimmermann","Part time","Business Administration","Business Strategy",58,12,"Evening","Active"],
+["L018","Clara Kruger","Part time","Finance","Financial Management",59,12,"Morning","Active"],
+["L019","David Lehmann","Part time","Project Management","Project Management",61,12,"Evening","Active"],
+["L020","Emma Krause","Part time","Data Science","Machine Learning",63,12,"Evening","Active"],
+["L021","Paul Hartmann","Part time","Business Administration","Operations Management",57,12,"Morning","Active"],
+["L022","Leonie Schmitt","Part time","Finance","Accounting",58,12,"Afternoon","Active"],
+["L023","Moritz Maier","Part time","Data Science","Data Analytics",62,12,"Evening","Active"],
+["L024","Hannah Herrmann","Part time","Project Management","Risk Management",60,12,"Afternoon","Active"],
+["L025","Simon Walter","Part time","Business Administration","Marketing Management",56,12,"Morning","Active"],
+["L026","Lena Mayer","Part time","Finance","Corporate Finance",61,12,"Evening","Active"],
+["L027","Jonas Peters","Part time","Data Science","Database Systems",64,12,"Evening","Active"],
+["L028","Amelie Kaiser","Part time","Project Management","Programme Management",59,12,"Morning","Active"],
+["L029","Tobias Fuchs","Part time","Business Administration","Strategic Management",60,12,"Afternoon","Active"],
+["L030","Sophie Peters","Part time","Finance","Investment Analysis",63,12,"Evening","Active"],
+["L031","Maximilian Jung","Part time","Data Science","Business Intelligence",62,12,"Evening","Active"],
+["L032","Laura Sommer","Part time","Project Management","Project Management",58,12,"Morning","Active"],
+["L033","Christian Hahn","Part time","Business Administration","Business Strategy",57,12,"Afternoon","Active"],
+["L034","Mia König","Part time","Finance","Financial Management",60,12,"Evening","Active"],
+["L035","Sebastian Franke","Part time","Data Science","Machine Learning",65,12,"Evening","Active"],
+["L036","Emily Schröder","Part time","Project Management","Risk Management",59,12,"Morning","Active"],
+["L037","Alexander Busch","Part time","Business Administration","Operations Management",58,12,"Afternoon","Active"],
+["L038","Charlotte Kraus","Part time","Finance","Accounting",57,12,"Evening","Active"],
+["L039","Niklas Berger","Part time","Data Science","Data Analytics",63,12,"Evening","Active"],
+["L040","Marie Sommer","Part time","Project Management","Programme Management",60,12,"Morning","Active"],
+["L041","Leon Schuster","Part time","Business Administration","Marketing Management",56,12,"Afternoon","Active"],
+["L042","Johanna Brandt","Part time","Finance","Corporate Finance",62,12,"Evening","Active"],
+["L043","Tim Neumann","Part time","Data Science","Database Systems",64,12,"Evening","Active"],
+["L044","Lisa Engel","Part time","Project Management","Project Management",58,12,"Morning","Active"],
+["L045","Patrick Busch","Part time","Business Administration","Strategic Management",60,12,"Afternoon","Active"]
+]
+
+df = pd.DataFrame(rows, columns=columns)
+path = "/mnt/data/lecturers_full_45.csv"
+df.to_csv(path, index=False)
+
+print("Created:", path)
+print("Total:", len(df))
+print("Full time:", (df["Employment_Type"] == "Full time").sum())
+print("Part time:", (df["Employment_Type"] == "Part time").sum())

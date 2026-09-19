@@ -1,0 +1,10 @@
+Course_ID,Course_Name,Programme,Department,Required_Hours,Expected_Students,Required_Room_Type,Required_Equipment
+C001,Business Strategy,MBA,"Business 
+Administration",4,28,Standard Classroom,Projector
+C002,"Machine Learning 
+Fundamentals",MSc Data Science ,Data Science ,6,24,Computer Lab,Computers
+C003,"Financial
+ Management",MBA ,Finance ,4,32,Standard Classroom,Projector
+C004,"Project 
+Management",MBA,Management ,5,30,Standard Classroom,Projector
+C005,Data Analytics,MSc Data Science ,Data Science ,6,26,Computer Lab,Computers

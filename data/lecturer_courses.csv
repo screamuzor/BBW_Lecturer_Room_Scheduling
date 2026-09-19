@@ -1,0 +1,11 @@
+Lecturer_Course_ID,Lecturer_ID,Course_ID,Qualification_Level,Primary_Assignment
+LC001,L001,C001,Expert,Yes
+LC002,L002,C002,Expert,Yes
+LC003,L003,C003,Expert,Yes
+LC004,L004,C004,Advanced,Yes
+LC005,L005,C005,Expert,Yes
+LC006,L006,C006,Advanced,No
+LC007,L007,C007,Expert,No
+LC008,L008,C008,Advanced,No
+LC009,L009,C009,Expert,Yes
+LC010,L010,C010,Advanced,No

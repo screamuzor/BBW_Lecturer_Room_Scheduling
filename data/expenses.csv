@@ -1,0 +1,11 @@
+Expense_ID,Lecturer_ID,Month,Expense_Type,Hours_Planned ,Hours_Actual,Hourly_Rate_EUR,Planned_Cost_EUR,Actual_Cost_EUR,Invoice_Status
+E001,L001,2026-10,Teaching,18,18,65,1170,1170,Paid
+E002,L002,2026-10,Teaching,20,20,70,1400,1400,Paid
+E003,L003,2026-10,Teaching,18,20,68,1224,1360,Pending
+E004,L004,2026-10,Teaching,16,16,65,1040,1040,Paid
+E005,L005,2026-10,Teaching,20,22,72,1440,1584,Pending 
+E006,L0016,2026-10,Teaching,8,8,75,600,600,Paid
+E007,L0017,2026-10,Teaching,10,12,80,800,960,Pending
+E008,L0018,2026-10,Teaching,6,6,65,390,390,Paid
+E009,L0019,2026-10,Teaching,8,7,70,560,490,Paid
+E010,L020,2026-10,Teaching,10,10,85,850,850,Pending
